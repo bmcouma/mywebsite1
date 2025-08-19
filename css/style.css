@@ -1,0 +1,198 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f3f5; /* Soft Background */
+    color: #343a40;
+    line-height: 1.6;
+}
+
+/* General Styling */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Logo */
+.logo {
+    height: 50px;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #343a40;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/hero-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 0;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Services Overview Section */
+.services-overview {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+.services-overview h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 2rem;
+}
+
+/* Service Box */
+.service {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 123, 255, 0.15); /* Hover Shadow */
+}
+
+.service i {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.service:hover i {
+    transform: scale(1.2) rotate(5deg);
+    color: #0056b3; /* Icon Hover */
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Service Item */
+.service-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item i {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+.service-item p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero {
+        padding: 5rem 0;
+    }
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .about h2,
+    .services-overview h2 {
+        font-size: 2rem;
+    }
+    .service-item {
+        padding: 20px;
+    }
+}
